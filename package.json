@@ -1,0 +1,12 @@
+{
+  "name": "taiko-fw",
+  "version": "1.0.0",
+  "description": "testing framework with taiko",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": "github.com/hieuphq/taiko-fw",
+  "author": "Hieu Phan",
+  "license": "MIT"
+}
