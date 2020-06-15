@@ -4,9 +4,14 @@
   "description": "testing framework with taiko",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "gauge run specs"
   },
   "repository": "github.com/hieuphq/taiko-fw",
   "author": "Hieu Phan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "taiko": "latest",
+    "@getgauge/cli": "latest"
+  }
 }
